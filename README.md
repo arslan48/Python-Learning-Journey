@@ -1,1 +1,4 @@
-This is my learning journey. I am a beginner practicing every day.
+This repository contains my daily Python practice code.
+The purpose is to track my learning progress, logic building,
+and consistency — not production-ready projects.
+
