@@ -1,7 +1,10 @@
-order_info = "Customer:Zain_Item:Laptop_Price:50000_Status:Paid"
-parts = order_info.split("_")
-sparts = order_info.split(":")
-status = sparts[-1]
-reverse_price = sparts[-2][::-1]
-print(status)
-print(reverse_price)
+email = "john.doe@gmail.com"
+
+Split = email.split("@") 
+username = Split[0]
+domain = Split[1]
+
+Extract_gmail = domain.split(".")[0]
+
+print("Username:", username)
+print("Website:", Extract_gmail)
