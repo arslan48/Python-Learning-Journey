@@ -1,0 +1,6 @@
+hi
+hellow
+Today I learned file handling in Python.
+This is the new line I am appending.
+ Nice
+wonderfull
