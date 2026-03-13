@@ -1,1 +1,0 @@
-Item: ['apple'] - Price: [20] 
