@@ -7,3 +7,10 @@ arr2d = np.array([
 ])
 
 print(arr2d[0:3,-1])
+
+print(arr2d[1, 2])
+# arr2d[row, :] → select one row, all columns (horizontal)
+print(arr2d[0, :])
+# arr2d[:, col] → select all rows, one column (vertical)
+print(arr2d[:, 0])
+
