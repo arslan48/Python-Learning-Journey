@@ -22,3 +22,7 @@ print(zain_feb)
 hina_march = scores[3,2]
 
 print(hina_march)
+
+ali_feb = scores[0,1]
+
+print(ali_feb)
