@@ -13,3 +13,9 @@ print(data.reshape(4,-1).shape)
 print(data.reshape(3,4,-1).shape)
 
 print(data.reshape(2,-1,6).shape)
+
+arr = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+
+print(f"arr reshape\n{arr.reshape(3,4)}")
+
+print(f"3d arr reshape\n{arr.reshape(2,2,3)}")
