@@ -32,3 +32,22 @@ print(f"Total bill:\n{total}\n")
 print(f"Delivery charges:\n{charges}\n")
 print(f"Quantity - Price:\n{m}\n")
 print(f"Quantity + Price:\n{added}")
+
+# comparison operators
+
+score = np.array([80,90,89,48,89])
+
+print(score[score>= 90])
+
+print(score== 88)
+
+# comparison operators
+
+score = np.array([80,90,89,48,89])
+
+print(score[score>= 80])
+
+a = np.array([1,2,3,4])
+b = np.array([3,4,3,4])
+
+print(f"grater\n{a<b}\n")
