@@ -9,6 +9,9 @@ print(arr1)
 arr2 = np.full((3,2,3),5)
 print(arr2)
 
-arr3 = np.arange(1,20,3)
+arr3 = np.arange(0,20,2)
 
 print(arr3)
+
+arr4 = np.linspace(0,20,5)
+print(arr4)
