@@ -8,3 +8,7 @@ print(arr1)
 
 arr2 = np.full((3,2,3),5)
 print(arr2)
+
+arr3 = np.arange(1,20,3)
+
+print(arr3)
