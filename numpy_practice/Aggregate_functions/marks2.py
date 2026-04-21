@@ -7,8 +7,8 @@ total_a = np.sum(alice)
 total_b = np.sum(bob)
 aver_a = np.mean(alice)
 aver_b = np.mean(bob)
-max_marks_a = np.max(alice, axis=0)
-max_marks_b = np.max(bob, axis=0)
+max_marks_a = np.max(alice)
+max_marks_b = np.max(bob)
 compare = alice > bob
 
 print(f"Alice Total: {total_a}, Average: {aver_a}, Max: {max_marks_a}")
