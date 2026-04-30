@@ -24,3 +24,20 @@ num1 = np.array([2,3,4])
 num2 = np.array([2,3,4])
 
 print(num1 - num2)
+
+# Broadcasting
+
+number1 = np.array([
+    [1,2,3,4],
+    [5,6,7,8],
+    [12,45,88,45]
+])
+
+number2 = np.array([[10],
+                    [1],
+                    [3]])
+print(number1.shape)
+print(number2.shape)
+
+print(number1 + number2)
+
