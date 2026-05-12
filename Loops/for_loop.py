@@ -27,3 +27,27 @@ number = int(input("Enter the number: "))
 for table in range(1, 11):
     tab = number * table
     print(f"Table {tab}")
+
+# Count Down
+
+for cout in range(10,0,-1):
+    print(f"Count: {cout}")
+
+
+numbers3 = [1,3,3,4,5]
+for  num3 in numbers3:
+    num3=num3 **2
+    print(f"Sqr {num3}")
+
+# FizzBuzz
+
+for f in range(1,31):
+    if f % 3 ==0 and f % 5 == 0:
+        print("FizzBuzz")
+    elif f % 3 == 0:
+        print("Fizz")
+    elif f % 5 ==0:
+        print("Buzz")
+    else:
+        print(f)
+
