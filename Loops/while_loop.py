@@ -20,3 +20,22 @@ e = 10
 while e >= 1:
     print(e)
     e = e -1
+
+# Guess the number 
+
+numb = int(input("Enter the number: "))
+secret = 7 
+while numb != secret:
+    print("Wrong! Try again.")
+    numb = int(input("Enter the number: "))
+
+print("Correct")
+
+# Multiplication Table with While Loop
+
+t = 1
+table = int(input("Enter the number: "))
+while t != 11:
+    print(f"{table} x {t} = {t * table}")
+    t = t + 1
+    
