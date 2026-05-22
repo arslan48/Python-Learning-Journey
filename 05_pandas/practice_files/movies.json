@@ -1,0 +1,10 @@
+[
+{"Title": "Interstellar", "Year": 2014, "Genre": "Sci-Fi", "Rating": 8.7},
+{"Title": "The Dark Knight", "Year": 2008, "Genre": "Action", "Rating": 9.0},
+{"Title": "Inception", "Year": 2010, "Genre": "Sci-Fi", "Rating": 8.8},
+{"Title": "Avengers Endgame", "Year": 2019, "Genre": "Action", "Rating": 8.4},
+{"Title": "Joker", "Year": 2019, "Genre": "Drama", "Rating": 8.4},
+{"Title": "Parasite", "Year": 2019, "Genre": "Thriller", "Rating": 8.5},
+{"Title": "Dune", "Year": 2021, "Genre": "Sci-Fi", "Rating": 8.0},
+{"Title": "Top Gun Maverick", "Year": 2022, "Genre": "Action", "Rating": 8.3}
+]
