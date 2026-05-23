@@ -1,9 +1,16 @@
 import pandas as pd
 
-df = pd.read_json("students.json")
-print(df)
+df = pd.read_json("students.json").set_index("Name")
 
 # Movies
 
-movies =pd.read_json("Movies.json")
+movies = pd.read_json("Movies.json").set_index("Title")
+
+# Selection by Column
+
+print(movies[["Title","Rating"]])
+print(movies["Genre"])
+
+# Selection by Row
 print(movies)
+print(movies.loc["The Dark Knight"])
