@@ -35,7 +35,7 @@ print(anime.loc["Bleach",["Rating","Studio"]])
 
 # Search with error handling
 
-anime_name = input("Enter the anime name: ").title()
+anime_name = input("Enter the anime name: ")
 try:
     print(anime.loc[anime_name])
 except KeyError:
