@@ -5,10 +5,11 @@ df = pd.read_json("students.json").set_index("Name")
 # Movies
 
 movies = pd.read_json("Movies.json").set_index("Title")
+print(movies)
 
 # Selection by Column
 
-print(movies[["Title","Rating"]])
+print(movies[["Rating"]])
 print(movies["Genre"])
 
 # Selection by Row
