@@ -1,8 +1,8 @@
 import pandas as pd 
 data = [78,500,34,]
 s = pd.Series(data,index=["a","b","c"])
-s.loc["c"] = 48
-print(s.loc["c"])
+s.loc["a"] = 48
+print(s.loc["b"])
 
 # Student Marks
 
