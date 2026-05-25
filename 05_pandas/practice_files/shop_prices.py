@@ -2,7 +2,7 @@ import pandas as pd
 items = {
     "Apple": 50,
     "Mango": 120,
-    "Grapes": 60,
+    "Grapes": 78,
     "Pear": 200,
     "Orange": 80
 }
