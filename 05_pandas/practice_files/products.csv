@@ -1,0 +1,16 @@
+ProductName,Category,Price,Stock,Brand,Rating
+iPhone 15,Smartphone,280000,50,Apple,9.2
+Samsung Galaxy S24,Smartphone,220000,75,Samsung,8.8
+Dell XPS 15,Laptop,350000,20,Dell,9.0
+HP Pavilion 15,Laptop,120000,45,HP,8.2
+Sony WH1000XM5,Headphones,85000,30,Sony,9.1
+JBL Flip 6,Speaker,25000,100,JBL,8.5
+iPad Pro,Tablet,180000,40,Apple,9.0
+Samsung Tab S9,Tablet,150000,35,Samsung,8.7
+Logitech MX Master,Mouse,15000,200,Logitech,9.3
+Dell Monitor 27,Monitor,65000,25,Dell,8.6
+Apple Watch S9,Smartwatch,120000,60,Apple,8.9
+Xiaomi Band 8,Smartwatch,8000,150,Xiaomi,8.1
+Acer Nitro 5,Laptop,150000,30,Acer,8.4
+Sony PS5,Console,120000,15,Sony,9.5
+Xbox Series X,Console,110000,20,Microsoft,9.2
