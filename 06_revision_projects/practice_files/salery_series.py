@@ -1,4 +1,3 @@
-from matplotlib.pylab import ma
 import pandas as pd 
 
 df = pd.read_csv("employees.csv")
