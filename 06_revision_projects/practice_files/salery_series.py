@@ -1,5 +1,4 @@
 import pandas as pd 
-
 df = pd.read_csv("employees.csv")
 s = df["Salary"]
 print(s)
