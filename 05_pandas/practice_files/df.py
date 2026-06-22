@@ -10,5 +10,4 @@ df = pd.DataFrame(data,index=range(1,5))
 # print(df)
 
 print(df.iloc[0])
-
 print(df["Country"])
