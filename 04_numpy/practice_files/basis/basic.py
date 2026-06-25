@@ -6,3 +6,11 @@ change = a[0]= 10
 print(f"replace 24 with {change}")
 slicing = a[0:3]
 print(slicing)
+b = np.array([
+            [12,3,2,3],
+            [23,4,5,8]
+            ])
+print(b.shape)
+nd = b.ndim
+print(nd)
+
