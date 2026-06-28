@@ -1,4 +1,5 @@
 import numpy as np
+import math
 a = np.array([24,35,133,57])
 print(a[3])
 print(a.shape)
@@ -25,4 +26,6 @@ slic = c[1:2,2:4]
 print(slic)
 last_row = c[2:3,3:4]
 print(last_row)
+
+print(math.prod(c.shape))
 
