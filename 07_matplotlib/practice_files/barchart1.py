@@ -10,6 +10,6 @@ plt.ylabel("Cups Sold")
 
 plt.grid(axis="y",alpha=0.5)
 
-plt.bar(days,cup_sold,color="#3299a8")
-
+bar=plt.bar(days,cup_sold,color="#3299a8")
+plt.bar_label(bar)
 plt.show()
