@@ -1,5 +1,6 @@
 import matplotlib.pylab as plt
 import numpy as np
+
 years = np.array([2023, 2024, 2025, 2026])
 naruto = np.array([70, 65, 60, 58])
 onepiece = np.array([80, 85, 90, 95])
