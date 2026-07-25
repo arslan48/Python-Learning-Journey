@@ -1,3 +1,5 @@
+from typing import Any
+
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -6,7 +8,11 @@ naruto = np.array([70, 65, 60, 58])
 onepiece = np.array([80, 85, 90, 95])
 aot = np.array([90, 88, 75, 70])
 
-line_style = dict(marker=".",markersize=10,linewidth=2)
+line_style: dict[str,Any] ={
+	"marker":".",
+	"markersize":10,
+	"linewidth":2
+}
 
 plt.title("Anime Ratings",fontsize=22,family="arial",fontweight="bold",color="#8839ef")
 plt.xlabel("Years",fontsize=12,family="arial",color="#8839ef")

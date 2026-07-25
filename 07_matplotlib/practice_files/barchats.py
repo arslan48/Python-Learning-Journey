@@ -1,5 +1,6 @@
 import matplotlib.pylab as plt
 import numpy as np
+
 foods = np.array(["Pizza", "Burger", "Fries", "Pasta", "Sandwich"])
 rating =np.array([9, 8, 7, 8.5, 6])
 plt.tick_params(axis="both",colors="#8839ef")
